@@ -1,0 +1,9 @@
+Remarque:
+Code_source_comparaison_with_list est un code qui fonctionne,
+il divise la dsn en tableau mais ne la divise pas en sous tableau comme 
+dans Code_source_comparaison_with_listV2 (qui est le programme utilisé actuellement 
+dans le comparateur DSN). Je garde ce fichier pour repartir de la base si besoin.
+
+Pour créer un exe
+dans le répertoire où se trouve le fichier python, taper la commande:
+pyinstaller --onedir -w Comparateur_lecteur_DSN.py
